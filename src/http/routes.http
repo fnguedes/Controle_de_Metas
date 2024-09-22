@@ -1,0 +1,17 @@
+POST http://localhost:3333/goals
+Content-Type: application/json
+
+{
+   "title":"Meditar",
+   "desiredWeeklyFrequency": 3
+}
+###
+GET http://localhost:3333/pending-goals
+###
+POST http://localhost:3333/completions
+Content-Type: application/json
+
+{
+   "goalId": "k1xadd0lbe4kyphfhz3ppocr"
+}
+###

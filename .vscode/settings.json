@@ -1,0 +1,7 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "biomesjs.biome",
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  }
+}
