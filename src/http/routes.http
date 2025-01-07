@@ -2,7 +2,7 @@ POST http://localhost:3333/goals
 Content-Type: application/json
 
 {
-   "title":"Meditar",
+   "title":"jabulani",
    "desiredWeeklyFrequency": 3
 }
 ###
@@ -12,6 +12,8 @@ POST http://localhost:3333/completions
 Content-Type: application/json
 
 {
-   "goalId": "k1xadd0lbe4kyphfhz3ppocr"
+   "goalId": "m7ykpvghsjejypqep9c44bxo"
 }
 ###
+###
+GET http://localhost:3333/summary
